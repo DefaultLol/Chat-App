@@ -1,0 +1,65 @@
+.container{
+  display: grid;
+  grid-template-columns: auto auto 131px auto;
+  padding-left:300px;
+  padding-top: 100px;
+}
+.grid-item{
+  display: grid;
+  grid-template-row: auto auto auto;
+}
+.message-list,.room-list,.new-room-form,.send-message-form{
+  border:1px solid black;
+  padding:15px 0px 0px 15px;
+}
+.room-list,.message-list{
+  height: 400px;
+}
+.new-room-form,.send-message-form{
+  height: 40px;
+}
+.room-list,.new-room-form{
+  width: 300px;
+}
+.message-list,.send-message-form{
+  width: 600px;
+}
+.room-list{
+  background-color:#C6E2FF;
+}
+.message-text{
+  border:1px solid #C6E2FF;
+  border-radius: 10px;
+  background-color: #C6E2FF;
+  width: 300px;
+  padding: 5px 0px 5px 15px;
+  margin:5px 0px 5px 0px;
+}
+.message-user{
+  color:#bebebe;
+}
+.send-message-form{
+  background-color: #cccccc;
+}
+.enter-message{
+  border:none;
+  outline: none;
+  font-style: italic;
+  width: 600px;
+  background-color: #cccccc;
+}
+.message-list,.room-list{
+  overflow-y: scroll;
+}
+.active a{
+  color:white;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+}
